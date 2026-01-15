@@ -1,0 +1,83 @@
+# Dashboard no Excel — Precificação por Produto (Bolsa x Físico)
+
+## Entendendo o desafio
+Este projeto tem como objetivo criar um **dashboard no Excel** com foco em **organização, tratamento e visualização de dados**, transformando uma base “crua” em informações visuais claras para apoiar **análise e tomada de decisão**.
+
+O painel final consolida a **precificação por produto** e compara **Preço em Bolsa (derivativo)** versus **Preço Físico**, permitindo filtrar por **segmento** e analisar rapidamente as diferenças entre cenários.
+
+---
+
+## O que foi desenvolvido
+- **Dashboard de Precificação por Produto** no Excel (layout executivo com cartões/KPIs e gráfico comparativo).
+- **Filtros por Segmento** para navegação rápida (ex.: Bovinos, Milho, Soja, etc.).
+- **Comparativo visual** de preço no vencimento: **Físico vs Derivativo**.
+- Estrutura pronta para evolução (inclusão de novas bases, regras e validações).
+
+---
+
+## Estrutura do repositório
+- `Base.xlsx`  
+  Arquivo de **dados base** utilizado como fonte para o dashboard.
+
+- `Custeio.xlsx` (ou `Dashboard.xlsx`)  
+  Arquivo Excel com o **dashboard final** (entrega principal).
+
+> Observação: os nomes podem variar conforme sua organização. O importante é manter **um arquivo de base** e **um arquivo final com o dashboard**.
+
+---
+
+## Como reproduzir (passo a passo)
+### Pré-requisitos
+- Microsoft Excel (recomendado Microsoft 365 ou Excel 2019+).
+- Habilitar edição e, se necessário, habilitar conexões/atualização de dados.
+
+### Passos
+1. Baixe/clone este repositório.
+2. Abra o arquivo `Custeio.xlsx` (ou `Dashboard.xlsx`).
+3. Caso o dashboard use atualização de base:
+   - Vá em **Dados > Atualizar Tudo**.
+4. Navegue pelo painel:
+   - Use o filtro de **Segmento** (lado esquerdo) para alterar a visualização.
+5. Confira os principais elementos:
+   - Cartões de preço (Bolsa e Físico).
+   - Gráfico comparativo “Vencimento Físico vs Derivativo”.
+
+---
+
+## Como usar o dashboard
+- Selecione um **Segmento** no menu lateral.
+- Observe os **valores nos cards**:
+  - **Precificação em Bolsa**
+  - **Precificação Física**
+- Analise o **gráfico comparativo** para entender qual cenário apresenta melhor precificação.
+
+---
+
+## Regras e premissas (resumo)
+- O dashboard está estruturado para comparar **dois tipos de precificação**:
+  - **Derivativo / Bolsa**
+  - **Físico**
+- A segmentação organiza a visão por **produto/segmento**, facilitando análise por unidade de negócio.
+
+> Caso existam lacunas (gaps) na base, o painel foi construído para permitir evolução contínua do modelo conforme novos dados sejam incluídos.
+
+---
+
+## Observações importantes
+- Este projeto faz parte de um **desafio de treinamento** e foi estruturado para ser **didático**, reprodutível e escalável.
+- O arquivo final pode ser expandido com:
+  - novas categorias e segmentos;
+  - validações de consistência (ex.: dados faltantes);
+  - novos KPIs (ex.: spread absoluto e percentual).
+
+---
+
+## Prints (opcional, recomendado)
+Você pode inserir aqui imagens do dashboard para facilitar a avaliação do projeto:
+
+- `./img/dashboard.png` (exemplo)
+
+---
+
+## Autor
+Fernando Morozini
